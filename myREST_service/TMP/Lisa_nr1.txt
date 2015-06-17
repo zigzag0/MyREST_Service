@@ -1,0 +1,7 @@
+Välis brauseris avada:
+
+http://localhost:8080/REST_app/
+
+http://localhost:8080/REST_app/service/search?author=Autor%20nr.10
+http://localhost:8080/REST_app/service/external/books
+http://localhost:8080/REST_service/service/books

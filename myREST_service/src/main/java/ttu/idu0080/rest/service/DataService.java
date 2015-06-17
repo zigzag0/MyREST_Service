@@ -1,23 +1,14 @@
 package ttu.idu0080.rest.service;
 
-import ttu.idu0080.rest.data.*;
-
-import java.util.*;
-import java.text.*;
 import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import javax.persistence.PersistenceUnit;
 
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.util.StringUtils;
-import org.springframework.transaction.annotation.Propagation;
 
-import javax.persistence.EntityTransaction;
+import ttu.idu0080.rest.data.Book;
 @Repository
 public class DataService  {
 
@@ -32,7 +23,7 @@ public class DataService  {
 	}
 
 
-	
+
 	public List<Book> getAllBooks()  {
 
 
@@ -56,11 +47,11 @@ public class DataService  {
 		return book_list;
 	}
 
-	
-	
-	
 
-	
-	
-	
+
+
+
+
+
+
 }
